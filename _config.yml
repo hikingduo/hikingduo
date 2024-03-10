@@ -1,0 +1,65 @@
+title: "HikingDuo"
+email: "hikingduoofficial@gmail.com"
+description: "HikingDuo - Travel Blog."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://hikingduo.github.io/hikingduo/"
+permalink: "/:title"
+facebook_url: "https://www.facebook.com/joyfulodyssey"
+twitter_url: "https://twitter.com/joyfulodyssey"
+linkedin_url: "https://www.linkenin.com/joyfulodyssey"
+pinterest_url: "https://www.pinterest.com/joyfulodyssey"
+site_logo: "/assets/images/hikinglogo.png"
+white_logo: "/assets/images/hikinglogo.png"
+mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
+
+copyright_text: "&copy; copyright all reserved to <a href='https://www.hikingduo.com/'>hikingduo.com</a>-2024"
+
+author_info:  
+  - name: "HikingDuo"
+    designation: "Travel Blogger"
+    bio: "Welcome to HikingDuo. We are Saurabh and Ramya, two adventurers driven by our love for travel, exploration, and the great outdoors. Our journey is fueled by the desire to experience epic hikes, discover hidden gems, and share our adventures with the world. We firmly believe that the most unforgettable moments happen when we step outside our comfort zones, embrace challenges, and embrace every aspect of the unknown.
+Our ambition is clear: we aim to explore every country and conquer some of the world's most breathtaking hikes. However, beyond our personal goals, we are dedicated to inspiring others to embark on their own journeys of discovery.
+Through our Blog, we invite you to join us on our adventures, find inspiration, uncover new trails, and share in the joy of exploration. From providing travel guides and hiking tips to sharing personal stories and captivating footage, our content aims to ignite your wanderlust and empower you to explore the world on your terms."
+    website: "https://www.hikingduo.com/"
+    image: "/assets/images/profilephoto.jpg"
+    signature: "/assets/images/signaturesnap.png"
+    facebook_url: "https://www.facebook.com/joyfulodyssey"
+    twitter_url: "https://twitter.com/joyfulodyssey"
+    instagram_url: "https://www.instagram.com/joyfulodyssey"
+    youtube_url: "https://www.youtube.com/user/thehikingduo"
+    pinterest_url: "https://www.pinterest.com/joyfulodyssey/"
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+jekyll-archives:
+  enabled: all
+  layout: category
+  permalinks:
+    category: "/category/:name/"
+
+feed:
+  collections:
+    posts:
+      path: "/index.xml"
+
+collections:
+  category:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: '' 				# an empty string here means all files in the project
+      type: 'category'
+    values:
+      layout: "category"
+      show_meta: false 	# Hide metadata for all pages
+      comments: false

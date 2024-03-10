@@ -1,0 +1,181 @@
+---
+layout: default
+pagination:
+  enabled: true
+---
+
+<header class="header-top bg-grey justify-content-center">
+	<div class="container">
+	  <div class="row align-items-center">
+		<div class="col-lg-2 col-md-4 text-center d-none d-lg-block">
+			<a class="navbar-brand" href="{{ site.baseURL | relative_url }}">
+			  <img src="{{site.site_logo | relative_url}}" alt="{{site.title}}" class="img-fluid">
+			</a>
+		</div>
+  
+		<div class="col-lg-8 col-md-12">
+		  <nav class="navbar navbar-expand-lg navigation-2 navigation">
+			<a class="navbar-brand text-uppercase d-lg-none" href="{{ site.baseURL | relative_url }}">
+			  <img src="{{site.site_logo | relative_url}}" alt="{{site.title}}" class="img-fluid">
+			</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="ti-menu"></span>
+			  </button>
+  
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					{% include navigation.html menu_class="mx-auto" %}
+					<ul class="list-inline mb-0 d-block d-lg-none">
+						{% include social_profiles.html %}
+					</ul>
+				</div>
+			</nav>
+		  </div>
+  
+		  <div class="col-lg-2 col-md-4 col-6">
+			<div class="header-socials-2 text-right d-none d-lg-block">
+			  <ul class="list-inline mb-0">
+				{% include social_profiles.html %}
+			  </ul>
+			</div>
+		  </div>
+	  </div>
+	</div>
+  </header>
+
+<!-- <div class="header-instagra" >
+  <div class="container-fluid p-0">
+    <div class="row no-gutters" id="instafeed">
+    </div>
+  </div>
+</div>
+
+<header class="header-top bg-grey justify-content-between navigation-dark">
+  <nav class="navbar navbar-expand-lg navigation ">
+      <div class="container">
+          <a class="navbar-brand d-lg-none" href="{{ site.baseURL | relative_url }}"><img src="{{site.site_logo | relative_url}}" alt="{{site.title}}" class="img-fluid"/></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="ti-menu"></span>
+          </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                  {% include navigation.html menu_class="mr-auto"%}
+                  <ul class="list-inline mb-0 d-block d-lg-none dark-header-socials">
+                    {% include social_profiles.html %}
+                  </ul>
+              </div>
+
+              <ul class="header-socials-2 text-right d-none d-lg-block mb-0">
+                {% include social_profiles.html %}
+              </ul>
+        </div>
+      </nav>
+  </header> -->
+
+<!-- <div class="profile-header">
+	<div class="background-image"></div>
+	<img src="assets/images/homesmallprofile.jpg" alt="Profile Picture" class="profile-picture">
+</div>
+
+  
+  <div class="row">
+	<div class="col-lg-12">
+		<div class="text-container">
+			<h1 class="very-bold-text">LET'S PLAN YOUR NEXT ADVENTURE TOGETHER</h1>
+		</div>
+	</div>
+</div> -->
+
+<section class="section-padding pt-4">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+				{% if paginator.page == 1 %}
+				<div class="row">
+                    {% for post in site.posts limit: "6" %}
+					<div class="col-lg-6">
+						<article class="post-grid mb-5">
+							{% if post.post_image %}
+							<a class="post-thumb mb-4 d-block" href="{{post.url | relative_url}}.html">
+								<img src="{{post.post_image | relative_url}}" alt="" class="img-fluid"/>
+							</a>
+							{% endif %}
+							<!-- <span class="font-sm text-color letter-spacing text-uppercase post-meta font-extra">{{post.categories | limit: "1"}}</span> -->
+							<h3 class="post-title mb-1 mt-2"><a href="{{post.url | relative_url}}.html">{{post.title}}</a></h3>
+
+							<div class="post-content mt-4">
+								<p>{{post.excerpt | strip_html | truncatewords: "30" }}</p>
+							</div>
+						</article>
+					</div>
+                    {% endfor %}
+				</div>
+				{% for post in site.posts %}
+				  {% if forloop.index == 6 %}
+				  <article class="post-grid mb-5">
+				  	{% if post.post_image %}
+					<a class="post-thumb mb-4 d-block" href="{{post.url | relative_url}}.html">
+						<img src="{{post.post_image | relative_url}}" alt="{{post.title}}" class="img-fluid w-100"/>
+					</a>
+					{% endif %}
+					<!-- <span class="font-sm text-color letter-spacing text-uppercase post-meta font-extra">{{post.categories | limit: "1" }}</span> -->
+					<h2 class="mb-1 mt-2 post-title"><a href="{{post.url | relative_url}}.html">{{post.title}}</a></h2>
+					<div class="post-content mt-4">
+						<p>{{post.excerpt | strip_html | truncatewords: "30" }}</p>
+					</div>
+				  </article>
+				 {% endif %}
+                {% endfor %}
+				<div class="row">
+                    {% for post in paginator.posts %}
+                    {% if forloop.index > 6 %}
+					<div class="col-lg-6">
+						<article class="post-grid mb-5">
+							{% if post.post_image %}
+							<a class="post-thumb mb-4 d-block" href="{{post.url | relative_url}}.html">
+								<img src="{{post.post_image | relative_url}}" alt="" class="img-fluid"/>
+							</a>
+							{% endif %}
+							<!-- <span class="font-sm text-color letter-spacing text-uppercase post-meta font-extra">{{post.categories | limit: "1"}}</span> -->
+							<h3 class="post-title mb-1 mt-2"><a href="{{post.url | relative_url}}.html">{{post.title}}</a></h3>
+
+							<div class="post-content mt-4">
+								<p>{{post.excerpt | strip_html | truncatewords: "30" }}</p>
+							</div>
+						</article>
+					</div>
+					{% endif %}
+                    {% endfor %}
+				</div>
+				{% else %}
+				<div class="row">
+                    {% for post in paginator.posts %}
+					<div class="col-lg-6">
+						<article class="post-grid mb-5">
+							{% if post.post_image %}
+							<a class="post-thumb mb-4 d-block" href="{{post.url | relative_url}}.html">
+								<img src="{{post.post_image | relative_url}}" alt="" class="img-fluid"/>
+							</a>
+							{% endif %}
+							<!-- <span class="font-sm text-color letter-spacing text-uppercase post-meta font-extra">{{post.categories | limit: "1"}}</span> -->
+							<h3 class="post-title mb-1 mt-2"><a href="{{post.url | relative_url}}.html">{{post.title}}</a></h3>
+
+							<div class="post-content mt-4">
+								<p>{{post.excerpt | strip_html | truncatewords: "30" }}</p>
+							</div>
+						</article>
+					</div>
+                    {% endfor %}
+				</div>
+                {% endif %}
+                <div class="m-auto">
+                {% include pagination.html %}
+            </div>
+
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              {% include sidebar.html %}
+			</div>
+		</div>
+	</div>
+</section>
+
+{% include footer_two.html %}

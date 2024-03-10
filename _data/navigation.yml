@@ -1,0 +1,74 @@
+#Please use the main menu items under the "text"
+
+# - text: HikingDuo
+#   url: /
+# - text: Blog Posts
+#   url: "#"
+#   submenu:
+#     - text: Standard Fullwidth
+#       url: /the-best-soft-tropical-getaway.html
+#     - text: Standard Left Sidebar
+#       url: /free-wordpress-and-html-themes.html
+#     - text: Standard Right Sidebar
+#       url: /ingredient-cilantro-vinaigrette.html
+# - text: About Us
+#   url: /about.html
+# - text: Category
+#   url: /category/design
+# - text: Contact Us
+#   url: /contact.html
+
+- text: Destinations
+  url: "#"
+  submenu:
+    - text: USA
+      url: /category/usa
+    - text: India
+      url: /category/india
+    - text: Bali
+      url: /category/bali
+    - text: Istanbul
+      url: /category/istanbul
+    - text: Nepal
+      url: /category/nepal
+- text: Travel
+  url: "#"
+  submenu:
+    - text: Travel Itineraries
+      url: /category/itineraries
+    - text: Travel Credit Cards
+      url: /category/creditcards
+    - text: Accommodation Advice
+      url: /category/accommodation
+    - text: Travel Gear
+      url: /category/travelgear
+    - text: Reviews
+      url: /category/reviews
+    - text: Smart Travel
+      url: /category/smarttravel
+- text: Vacation Types
+  url: "#"
+  submenu:
+    - text: Road Trips
+      url: /category/roadtrip
+    - text: Adventure
+      url: /category/adventure
+    - text: Hiking
+      url: /category/hiking
+    - text: Camping
+      url: /category/camping
+    - text: Beach vacation
+      url: /category/beach
+    - text: Luxury vacation
+      url: /category/luxury
+    - text: Cruises
+      url: /category/cruises
+    - text: Food & Wine
+      url: /category/foodwine
+- text: Blog
+  url: /blog.html
+- text: About Us
+  url: /about.html
+- text: Contact
+  url: /contact.html
+
