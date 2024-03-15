@@ -35,6 +35,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-archives
 
 paginate: 10
 paginate_path: "/blog/page:num/"
@@ -43,7 +44,7 @@ jekyll-archives:
   enabled: all
   layout: category
   permalinks:
-    category: "/category/:name/"
+    category: "/category/:title/"
 
 feed:
   collections:
