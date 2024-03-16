@@ -1,7 +1,7 @@
 title: "HikingDuo"
 email: "hikingduoofficial@gmail.com"
 description: "HikingDuo - Travel Blog."
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/hikingduo" # the subpath of your site, e.g. /blog
 url: "https://hikingduo.github.io/hikingduo/"
 permalink: "/:title"
 facebook_url: "https://www.facebook.com/joyfulodyssey"

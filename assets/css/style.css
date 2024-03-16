@@ -1727,4 +1727,19 @@ footer
   max-width: 80%; /* Adjust as needed */
 }
 
+/* Adjust logo size for small screens */
+@media (max-width: 991px) {
+  .navbar-brand img {
+    max-width: 150px; /* Adjust as needed */
+  }
+}
+
+/* Adjust spacing for small screens */
+@media (max-width: 575px) {
+  .navbar-nav {
+    margin-top: 10px; /* Adjust as needed */
+  }
+}
+
+
 /*# sourceMappingURL=maps/style.css.map */
