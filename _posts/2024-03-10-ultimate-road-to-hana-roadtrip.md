@@ -3,7 +3,7 @@ layout: post
 title: "Ultimate Maui's Road to Hana roadtrip"
 date: 2024-03-10 00:00:00 +0600
 tags: [roadtrip roadtohana maui beachvacation hawaii]
-categories: [usa, india, bali, istanbul, nepal, itineraries, creditcards, accommodation, travelgear, reviews, budgettravel, roadtrip, adventure, hiking, camping, beach, luxury, cruises, foodwine]
+categories: [usa, india, bali, istanbul, nepal, itineraries, accommodation, travelgear, reviews, budgettravel, roadtrip, adventure, hiking, camping, beach, luxury, cruises, foodwine]
 post_image: "/assets/images/Maui.jpg"
 author: "HikingDuo"
 featured: true
