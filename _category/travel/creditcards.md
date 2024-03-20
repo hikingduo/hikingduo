@@ -1,8 +1,7 @@
 ---
+description: "This page caontains all the blog posts related to travel credit cards."
 tag: creditcards
 category: creditcards
 permalink: "/category/creditcards"
-firstimage: "/assets/images/DSC05818.JPG"
-secondimage: "/assets/images/DSC05818.JPG"
-thirdimage: "/assets/images/DSC05818.JPG"
+firstimage: "/assets/images/creditcards/creditcard.png"
 ---

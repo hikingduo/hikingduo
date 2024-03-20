@@ -1,34 +1,30 @@
-title: "HikingDuo"
+title: "HikingDuo - Travel Blog"
 email: "hikingduoofficial@gmail.com"
-description: "HikingDuo - Travel Blog."
-baseurl: "/hikingduo" # the subpath of your site, e.g. /blog
-url: "https://hikingduo.github.io/hikingduo/"
+description: "HikingDuo - Travel Blog helping others to help travel more."
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://www.hikingduo.com/"
 permalink: "/:title"
-facebook_url: "https://www.facebook.com/joyfulodyssey"
-twitter_url: "https://twitter.com/joyfulodyssey"
-linkedin_url: "https://www.linkenin.com/joyfulodyssey"
-pinterest_url: "https://www.pinterest.com/joyfulodyssey"
+instagram_username: "joyfulodyssey"
+instagram_url: "https://www.instagram.com/joyfulodyssey/"
+facebook_url: "https://www.facebook.com/thehikingduo"
+youtube_url: "https://www.youtube.com/channel/UCTpUx4XMG9E49csxl1XkGBg"
 site_logo: "/assets/images/hikinglogo.png"
 white_logo: "/assets/images/hikinglogo.png"
 mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
 
-copyright_text: "&copy; copyright all reserved to <a href='https://www.hikingduo.com/'>hikingduo.com</a>-2024"
+copyright_text: "&copy; copyright all reserved to <a href='https://www.hikingduo.com/'>hikingduo.com</a> © 2024"
 
 author_info:  
   - name: "HikingDuo"
     designation: "Travel Blogger"
-    bio: "Welcome to HikingDuo. We are Saurabh and Ramya, two adventurers driven by our love for travel, exploration, and the great outdoors. Our journey is fueled by the desire to experience epic hikes, discover hidden gems, and share our adventures with the world. We firmly believe that the most unforgettable moments happen when we step outside our comfort zones, embrace challenges, and embrace every aspect of the unknown.
-Our ambition is clear: we aim to explore every country and conquer some of the world's most breathtaking hikes. However, beyond our personal goals, we are dedicated to inspiring others to embark on their own journeys of discovery.
-Through our Blog, we invite you to join us on our adventures, find inspiration, uncover new trails, and share in the joy of exploration. From providing travel guides and hiking tips to sharing personal stories and captivating footage, our content aims to ignite your wanderlust and empower you to explore the world on your terms."
+    bio: "Welcome to HikingDuo, your ultimate destination for adventure, exploration, and the thrill of the great outdoors. We are Saurabh and Ramya, passionate explorers on a mission to explore the world and uncover hidden gems along the way. Through our blog, we share travel guides, hiking tips, and captivating stories to inspire you to step out of your comfort zone and embrace the thrill of exploration."
     website: "https://www.hikingduo.com/"
     image: "/assets/images/profilephoto.jpg"
     signature: "/assets/images/signaturesnap.png"
-    facebook_url: "https://www.facebook.com/joyfulodyssey"
-    twitter_url: "https://twitter.com/joyfulodyssey"
-    instagram_url: "https://www.instagram.com/joyfulodyssey"
-    youtube_url: "https://www.youtube.com/user/thehikingduo"
-    pinterest_url: "https://www.pinterest.com/joyfulodyssey/"
-
+    instagram_username: "joyfulodyssey"
+    instagram_url: "https://www.instagram.com/joyfulodyssey/"
+    facebook_url: "https://www.facebook.com/thehikingduo"
+    youtube_url: "https://www.youtube.com/channel/UCTpUx4XMG9E49csxl1XkGBg"
 # Build settings
 markdown: kramdown
 
@@ -36,6 +32,10 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
 
 paginate: 10
 paginate_path: "/blog/page:num/"

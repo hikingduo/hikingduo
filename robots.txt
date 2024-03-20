@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /admin/          # Disallow crawling of admin pages
+Disallow: /private/        # Disallow crawling of private pages
+Disallow: /cgi-bin/        # Disallow crawling of CGI scripts
+
+User-agent: Googlebot
+Allow: /                   # Allow crawling of all other pages for Googlebot
+
+User-agent: Bingbot
+Allow: /                   # Allow crawling of all other pages for Bingbot
+
+Allow: https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202403200101/show_ads_impl_with_ama_fy2021.js
+
+Sitemap: https://www.hikingduo.com/sitemap.xml   # Specify the location of your sitemap file

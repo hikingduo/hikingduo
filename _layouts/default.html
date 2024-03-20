@@ -5,6 +5,15 @@
     <title>
       {% if page.title %} {{page.title}} {% else %} {{site.title}} {% endif %}
     </title>
+    {% if page.tags %}
+      {% assign all_tags = page.tags | join: ", " %}
+        {% if all_tags %}
+          <meta name="keywords" content="{{ all_tags }}">
+        {% endif %}
+    {% endif %}
+    {% if page.description %}
+          <meta name="description" content="{{ page.description }}">
+    {% endif %}
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
@@ -75,7 +84,7 @@
     <!-- Instagram Feed Js -->
     <script src="{{'/assets/plugins/instafeed-js/instafeed.min.js' | relative_url }}"></script>
     <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
     <script src="{{'/assets/plugins/google-map/gmap.js' | relative_url }}"></script>
     <script src="{{'/assets/js/simple-jekyll-search.min.js' | relative_url }}"></script>
     <script
@@ -83,6 +92,8 @@
       src="https://https-revolvejk-netlify-com.disqus.com/count.js"
       async
     ></script>
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3897260999961921"
+    crossorigin="anonymous"></script> -->
     <!-- main js -->
     <script src="{{'/assets/js/custom.js' | relative_url }}"></script>
   </body>

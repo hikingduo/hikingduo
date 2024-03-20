@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "American Express Platinum Review: Is the High Annual Fee Worth It?"
+description: "This post contains review of american express platinum card." 
 date: 2024-03-16 00:00:00 +0600
 tags: [creditcards]
 categories: [creditcards, airportlounges]

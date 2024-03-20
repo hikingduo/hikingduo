@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% include header_one.html %}
+{% include header_one.html cache=true %}
 
 <section class="single-block-wrapper section-padding">
     <div class="container">
@@ -56,20 +56,14 @@ layout: default
                       <div class="author-content pl-4">
                         <h4 class="mb-3">{{data['name']}}</h4>
                         <p>{{data['bio']}}</p>
-                        {% if data['facebook_url'] %}
-                         <a target="_blank" class="author-social" href="{{data['facebook_url']}}"><i class="ti-facebook"></i></a>
-                        {% endif %}
-                        {% if data['twitter_url'] %}
-                         <a target="_blank" class="author-social" href="{{data['twitter_url']}}"><i class="ti-twitter"></i></a>
-                        {% endif %}
                         {% if data['instagram_url'] %}
                         <a target="_blank" class="author-social" href="{{data['instagram_url']}}"><i class="ti-instagram"></i></a>
                         {% endif %}
-                        {% if data['pinterest_url'] %}
-                        <a target="_blank" class="author-social" href="{{data['pinterest_url']}}"><i class="ti-pinterest"></i></a>
-                        {% endif %}
                         {% if data['youtube_url'] %}
                         <a target="_blank" class="author-social" href="{{data['youtube_url']}}"><i class="ti-youtube"></i></a>
+                        {% endif %}
+                        {% if data['facebook_url'] %}
+                         <a target="_blank" class="author-social" href="{{data['facebook_url']}}"><i class="ti-facebook"></i></a>
                         {% endif %}
                     </div>
                     
@@ -103,4 +97,4 @@ layout: default
     </div>
 </section>
 
-{% include footer_one.html %}
+{% include footer_one.html cache=true %}

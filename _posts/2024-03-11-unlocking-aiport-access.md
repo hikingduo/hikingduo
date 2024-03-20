@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Unlocking Airport Lounge Access: Tips for Enjoying Luxury Travel Without the Price Tag"
+description: "This post contains all the details on how to get airport lounge access." 
 date: 2024-03-16 00:00:00 +0600
 tags: [creditcards, smarttravel]
 categories: [creditcards, smarttravel, airportlounges]

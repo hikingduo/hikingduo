@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% include header_one.html %}
+{% include header_one.html cache=true %}
 
 <section class="single-block-wrapper section-padding">
     <div class="container">
@@ -13,7 +13,7 @@ layout: default
                         <!-- <div class="meta-cat">
                             {{ page | tags }}
                         </div> -->
-                        <h2 class="post-title mt-2">{{page.title}}</h2>
+                        <h1 class="post-title mt-2">{{page.title}}</h1>
 
                         <div class="post-meta">
                           {% if page.author %}
@@ -106,4 +106,4 @@ layout: default
     </div>
 </section>
 
-{% include footer_one.html %}
+{% include footer_one.html cache=true %}

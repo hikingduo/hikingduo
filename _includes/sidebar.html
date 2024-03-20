@@ -8,14 +8,14 @@
                     <img src="{{data['image'] | relative_url }}" alt="{{data['name']}}" class="img-fluid">
                 </div>
                 {% endif %}
-                <h4 class="mb-0 mt-4">{{data['name']}}</h4>
+                <h1 class="mb-0 mt-4">{{data['name']}}</h1>
                 <p>{{data['designation']}}</p>
                 <p>{{data['bio']}}</p>
                 <img src="{{data['signature'] | relative_url }}" alt="{{data['name']}}" class="img-fluid" />
             </div>
 
             <div class="sidebar-widget follow mb-5 text-center">
-                <h4 class="text-center widget-title">Follow Me</h4> {% include follow_socials.html %}
+                <h4 class="text-center widget-title">Follow Us</h4> {% include follow_socials.html %}
             </div>
         </div>
         {% endfor %}
@@ -56,15 +56,15 @@
             </ul>
         </div>
 
-        <div class="sidebar-widget subscribe mb-5">
+        <!-- <div class="sidebar-widget subscribe mb-5">
             <h4 class="text-center widget-title">Newsletter</h4>
             <form action="{{site.mailchimp_list}}" target="__blank" method="post">
                 <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="email address" required>
                 <button class="btn btn-primary d-block mt-3" type="submit">Sign Up</button>
             </form>
-        </div>
-        <div class="sidebar-widget sidebar-adv mb-5">
+        </div> -->
+        <!-- <div class="sidebar-widget sidebar-adv mb-5">
             {% include advertisement.html %}
-        </div>
+        </div> -->
     </div>
 </div>

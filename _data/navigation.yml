@@ -1,23 +1,5 @@
 #Please use the main menu items under the "text"
 
-# - text: HikingDuo
-#   url: /
-# - text: Blog Posts
-#   url: "#"
-#   submenu:
-#     - text: Standard Fullwidth
-#       url: /the-best-soft-tropical-getaway.html
-#     - text: Standard Left Sidebar
-#       url: /free-wordpress-and-html-themes.html
-#     - text: Standard Right Sidebar
-#       url: /ingredient-cilantro-vinaigrette.html
-# - text: About Us
-#   url: /about.html
-# - text: Category
-#   url: /category/design
-# - text: Contact Us
-#   url: /contact.html
-
 - text: Destinations
   url: "#"
   submenu:
@@ -36,18 +18,18 @@
   submenu:
     - text: Travel Itineraries
       url: /category/itineraries
-    - text: Travel Credit Cards
-      url: /category/creditcards
-    - text: Airport Lounges
-      url: /category/airportlounges
-    - text: Accommodation Advice
-      url: /category/accommodation
     - text: Travel Gear
       url: /category/travelgear
+    - text: Accommodation Advice
+      url: /category/accommodation
     - text: Reviews
       url: /category/reviews
     - text: Smart Travel
       url: /category/smarttravel
+    - text: Travel Credit Cards
+      url: /category/creditcards
+    - text: Airport Lounges
+      url: /category/airportlounges
 - text: Vacation Types
   url: "#"
   submenu:
@@ -61,16 +43,14 @@
       url: /category/camping
     - text: Beach vacation
       url: /category/beach
-    - text: Luxury vacation
-      url: /category/luxury
     - text: Cruises
       url: /category/cruises
     - text: Food & Wine
       url: /category/foodwine
-- text: Blog
-  url: /blog.html
+# - text: Blog
+#   url: /blog.html
 - text: About Us
   url: /about.html
-- text: Contact
-  url: /contact.html
+# - text: Contact
+#   url: /contact.html
 
