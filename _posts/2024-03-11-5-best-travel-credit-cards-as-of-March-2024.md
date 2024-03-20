@@ -12,7 +12,7 @@ Traveling the world doesn't have to break the bank, especially when you have the
 
 ### [1. The Platinum Card® from American Express](https://card.americanexpress.com/d/platinum-card/?utm_mcid=&utm_source=google&utm_medium=cpc&utm_term=%2Bamerican%20%2Bexpress%20%2Bplatinum&utm_cmpid=18507428845&utm_adgid=142828790300&utm_tgtid=aud-2277854002789:kwd-383918391531&utm_mt=p&utm_adid=687193864026&utm_dvc=c&utm_ntwk=g&utm_adpos=&utm_plcmnt=&utm_locphysid=9032188&utm_locintid=&utm_feeditemid=&utm_devicemdl=&utm_plcmnttgt=&utm_programname=brandcps&utm_cmp=Platinum&utm_sl=&gclid=Cj0KCQjwhtWvBhD9ARIsAOP0Goidr08Jx1LKVjW6l2CZ7Okdw7AwtEOThNaEnTo6ZZPze7s2j1e5LJkaAgPVEALw_wcB)
 
-**Sign-Up Bonus:** Earn 150,000 Membership Rewards Points after you spend $8,000 on purchases on the Card in your first 6 months of Card Membership.
+**Sign-Up Bonus:** Earn 150,000 Membership Rewards Points after you spend $8,000 on purchases on the Card in your first 6 months of Card Membership. <a href="https://i.capitalone.com/G6FzFcF87"><b style="color: blue;">Apply for the card here.</b></a>
 
 **Rewards:** 5X Membership Rewards points on flights booked directly with airlines or with American Express Travel, and on prepaid hotels booked on amextravel.com. 1X point on other purchases.
 
@@ -58,9 +58,9 @@ Traveling the world doesn't have to break the bank, especially when you have the
 - Limited bonus categories beyond travel and dining.
 - Points transfer may not always offer the best value.
 
-### [3. Capital One Venture X Rewards Credit Card](https://www.capitalone.com/credit-cards/lp/venture-x/lp1/?external_id=WWW_XXXXX_ZZZ_ONL-SE_ZZZZZ_T_SEM2_ZZZZ_c_Zg_2c910552-e184-44ae-a943-f1ce26d81c86_687052895412_779595&target_id=kwd-1432579728236&oC=CO5ed2SUs1&gad_source=1&gclid=Cj0KCQjwhtWvBhD9ARIsAOP0GoiDFwkFXpDSZBKwCCpmxNwJ4WuCRzVKaEFW0HPaypfNnmWQm9GaWNIaArWLEALw_wcB)
+### [3. Capital One Venture X Rewards Credit Card](https://i.capitalone.com/G6FzFcF87)
 
-**Sign-Up Bonus:** Enjoy a one-time bonus of 75,000 miles once you spend $4,000 on purchases within 3 months from account opening.
+**Sign-Up Bonus:** Enjoy a one-time bonus of 75,000 miles once you spend $4,000 on purchases within 3 months from account opening, equal to $750 in travel.  <a href="https://i.capitalone.com/G6FzFcF87"><b style="color: blue;">Apply for the card here.</b></a>
 
 **Anniversary Bonus:** Get 10,000 bonus miles (equal to $100 towards travel) every year, starting on your first anniversary.
 
@@ -105,9 +105,9 @@ Traveling the world doesn't have to break the bank, especially when you have the
 
 ### [5. Chase Sapphire Preferred® Card](https://creditcards.chase.com/a1/23Q4/sapphire/dual?CELL=6D4C&jp_cmp=cc/Sapphire+Preferred_Brand_Exact_Sapphire+Preferred_SEM_US_NA_Standard_NA/sea/p56274819573/Chase+Sapphire+Preferred&gclsrc=aw.ds&ds_rl=1253080&gad_source=1&gclid=Cj0KCQjwhtWvBhD9ARIsAOP0Goh4qo5px-cQ1wnyuJRI3l9gYNRog211M0NWz6L-4naNxrm04AVUIXEaAjNKEALw_wcB&gclsrc=aw.ds)
 
-**Sign-Up Bonus:** Earn 60,000 Ultimate Rewards points after spending $4,000 on purchases in the first 3 months.
+**Sign-Up Bonus:** Earn 60,000 bonus points after you spend $4,000 on purchases in the first 3 months from account opening. That's $750 toward travel when you redeem through Chase Ultimate Rewards®.
 
-**Rewards:** 2X points on travel and dining worldwide, and 1X point per dollar spent on all other purchases.
+**Rewards:** 5X Points on travel purchased through Chase Ultimate Rewards®. 3X Points on dining. 3X Points on select streaming services. 3X Points on online groceries. 2X Points on all other travel purchases. 1X Point on all other purchases.
 
 **Redemption Options:** Points can be transferred to airline and hotel partners, or redeemed for travel through the Chase Ultimate Rewards portal at a 25% bonus.
 
